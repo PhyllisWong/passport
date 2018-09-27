@@ -1,7 +1,6 @@
 // config/database.js
-
-module.exports = {
-
-  'url' : 'mongodb://localhost:27017/node-auth' //
-
-}
+//
+// module.exports = {
+//   let mongoUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/node-auth'
+//
+// };
