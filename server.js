@@ -16,7 +16,7 @@ const session = require('express-session');
 
 
 // configuration ===============================================================
-let mongoUri = process.env.MONGODB_URI;
+let mongoUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/node-auth';
 mongoose.connect(mongoUri, { useNewUrlParser: true } ); //connect our database
 mongoose.set('debug', true);
 
