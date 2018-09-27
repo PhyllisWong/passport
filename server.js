@@ -31,6 +31,9 @@ app.use(bodyParser.urlencoded({ extended: true })); // get information from form
 app.engine('hbs', exphbs({defaultLayout: 'main', extname: 'hbs'}));
 app.set('view engine', 'hbs');
 
+// Static content
+app.use(exp.static('./public'));
+
 
 // required for passport
 app.use(session({

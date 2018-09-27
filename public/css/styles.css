@@ -1,0 +1,11 @@
+
+body {
+	margin: 0;
+	width: 100%;
+	padding: 2rem;
+	/*background: red;*/
+}
+
+h1 {
+	color: #428bca !important; /* test they stylesheet is linked properly */
+}
